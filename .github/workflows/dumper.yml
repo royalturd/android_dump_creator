@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/10orG_OreoFeb2019_V1.0_82_Stock.zip
+  ROM_URL: https://tdrive.elytra8.workers.dev/Infinix_Hot_8_X650C_MT6765_V174_190807.zip
   TZ: Asia/Kolkata
 jobs:
   build:
