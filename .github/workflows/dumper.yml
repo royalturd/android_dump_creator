@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/RMX1851EX_11_OTA_1100_all_afysQxXkAd0p.zip
+  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/meizu17_Pro/8.2.0.0/cn/20201215185816/2ce1c704/update.zip
   TZ: Asia/Kolkata
 jobs:
   build:
