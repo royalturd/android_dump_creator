@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/Copy%20of%20RMX1851EX_11_C.04_200320_b6a7c98d.zip
+  ROM_URL: https://dl3.smartisan.com/ota/rls.darwin-mol-8.0.0-20201127-SEKSA.darwin-user/202012090354/8.1.1-202012082239-user-drw-d1f6e8e1d7.zip
   TZ: Asia/Kolkata
 jobs:
   build:
