@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/meizu17_Pro/8.2.0.0/cn/20201215185816/2ce1c704/update.zip
+  ROM_URL: https://download.c.realme.com/osupdate/CPH1861EX_11_OTA_0500_all_fLuS0Ipoe93t.ozip
   TZ: Asia/Kolkata
 jobs:
   build:
