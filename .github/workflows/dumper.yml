@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/Infinix_Hot_8_X650C_MT6765_V174_190807.zip
+  ROM_URL: https://download.zteusa.com/products/axon-10-pro/ZTE_Axon10Pro_V2.0.0B06_SD.zip
   TZ: Asia/Kolkata
 jobs:
   build:
