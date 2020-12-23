@@ -19,18 +19,20 @@ jobs:
             sudo -E apt-get -qq install git openjdk-8-jdk wget expect p7zip-full p7zip-rar
 
        - name: Clone Dumper Source Code
-         run: git clone https://github.com/AndroidDumps/dumpyara
+         run: git clone https://github.com/AndroidDump/dumper
        
        - name: Setting up Dumper requirements
          run: |
-              sudo chmod -R 777 dumpyara
+              sudo chmod -R 777 dumper
               cd dumpyara
               sudo pip3 install wheel setuptools
               sudo bash setup.sh
+              touch .tgtoken
+              echo "${{ secrets.BOT }}" >> ".tgtoken"
 
        - name: Download Stock Rom & Generate dump
          run: |
-              cd dumpyara
+              cd dumper
               sudo bash dumpyara.sh $ROM_URL ${{ secrets.GHTOKEN }}
        
       
