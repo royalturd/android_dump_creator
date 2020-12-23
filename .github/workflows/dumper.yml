@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/OnePlus5Oxygen_23_OTA_069_all_2010292138_6700.zip
+  ROM_URL: https://bigota.d.miui.com/V11.0.2.0.QCPINXM/miui_OLIVELITEINGlobal_V11.0.2.0.QCPINXM_11bc0bdf26_10.0.zip
   TZ: Asia/Kolkata
 jobs:
   build:
