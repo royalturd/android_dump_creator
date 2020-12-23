@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V11.0.1.0.ODARUXM/miui_HM5RUGlobal_V11.0.1.0.ODARUXM_0fe3699e6f_8.1.zip
+  ROM_URL: https://tdrive.elytra8.workers.dev/miui_HMNote4XGlobal_V11.0.2.0.NCFMIXM_83170d3e3a_7.0.zip
   TZ: Asia/Kolkata
 jobs:
   build:
