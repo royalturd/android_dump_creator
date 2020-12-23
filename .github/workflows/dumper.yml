@@ -24,7 +24,7 @@ jobs:
        - name: Setting up Dumper requirements
          run: |
               sudo chmod -R 777 dumper
-              cd dumpyara
+              cd dumper
               sudo pip3 install wheel setuptools
               sudo bash setup.sh
               touch .tgtoken
