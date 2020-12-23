@@ -18,7 +18,6 @@ jobs:
             sudo -E apt-get -qq update
             sudo -E apt-get -qq install git openjdk-8-jdk wget expect p7zip-full p7zip-rar
 
-       
        - name: Clone Dumper Source Code
          run: git clone https://github.com/AndroidDumps/dumpyara
        
@@ -26,8 +25,9 @@ jobs:
          run: |
               sudo chmod -R 777 dumpyara
               cd dumpyara
-              bash setup.sh
-       
+              pip install wheel setuptools
+              sudo bash setup.sh
+
        - name: Download Stock Rom & Generate dump
          run: |
               cd dumpyara
