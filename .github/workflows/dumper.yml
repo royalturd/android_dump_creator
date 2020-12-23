@@ -20,7 +20,7 @@ jobs:
 
        
        - name: Clone Dumper Source Code
-         run: https://github.com/AndroidDumps/dumpyara
+         run: git clone https://github.com/AndroidDumps/dumpyara
        
        - name: Setting up Dumper requirements
          run: |
