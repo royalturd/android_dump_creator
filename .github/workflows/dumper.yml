@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.0.2.0.QFGINXM/miui_LAVENDERINGlobal_V12.0.2.0.QFGINXM_ef84abc890_10.0.zip
+  ROM_URL: https://tdrive.elytra8.workers.dev/Copy%20of%20RMX1851EX_11_C.04_200320_b6a7c98d.zip
   TZ: Asia/Kolkata
 jobs:
   build:
