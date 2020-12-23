@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://download.zteusa.com/products/axon-10-pro/ZTE_Axon10Pro_V2.0.0B06_SD.zip
+  ROM_URL: https://tdrive.elytra8.workers.dev/N8305-IONE_NOTE_SW_V12_HW_V2.0_20191001_RepairMyMobile/N8305-IONE_NOTE_SW_V12_HW_V2.0_20191001/IONE_NOTE_SW_V12_HW_V2.0_20191001.pac
   TZ: Asia/Kolkata
 jobs:
   build:
