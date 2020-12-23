@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://download.c.realme.com/osupdate/RMX1851EX_11_OTA_1100_all_afysQxXkAd0p.ozip
+  ROM_URL: https://bigota.d.miui.com/V12.0.2.0.QFGINXM/miui_LAVENDERINGlobal_V12.0.2.0.QFGINXM_ef84abc890_10.0.zip
   TZ: Asia/Kolkata
 jobs:
   build:
