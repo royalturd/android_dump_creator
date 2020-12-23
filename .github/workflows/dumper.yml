@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/RMX1805EX_A.60_Realme_C1and2.zip
+  ROM_URL: https://bigota.d.miui.com/V11.0.2.0.ODAMIXM/miui_HM5Global_V11.0.2.0.ODAMIXM_25c20fae94_8.1.zip
   TZ: Asia/Kolkata
 jobs:
   build:
