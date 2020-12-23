@@ -22,14 +22,15 @@ jobs:
        - name: Clone Dumper Source Code
          run: https://github.com/AndroidDumps/dumpyara
        
-       - name: Setting up ErfanGSI requirements
+       - name: Setting up Dumper requirements
          run: |
               sudo chmod -R 777 dumpyara
               cd dumpyara
               sudo bash setup.sh
        
-       - name: Download Stock Rom & Generate GSI
+       - name: Download Stock Rom & Generate dump
          run: |
+              cd dumpyara
               sudo bash dumpyara.sh $ROM_URL ${{ secrets.GHTOKEN }}
        
       
