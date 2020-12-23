@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://download.c.realme.com/osupdate/RMX2185_11_OTA_0810_all_jLGoLXnVv2Zm.ozip
+  ROM_URL: https://tdrive.elytra8.workers.dev/OnePlus5Oxygen_23_OTA_069_all_2010292138_6700.zip
   TZ: Asia/Kolkata
 jobs:
   build:
