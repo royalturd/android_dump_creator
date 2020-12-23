@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V11.0.2.0.QCPINXM/miui_OLIVELITEINGlobal_V11.0.2.0.QCPINXM_11bc0bdf26_10.0.zip
+  ROM_URL: https://bigota.d.miui.com/V10.2.18.0.OCLINXM/miui_TIAREINGlobal_V10.2.18.0.OCLINXM_7fd0e04546_8.1.zip
   TZ: Asia/Kolkata
 jobs:
   build:
