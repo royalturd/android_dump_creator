@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/iBall_Slide_3G_7334i_MT6577_V10_V1.26_20130730_(by_firmwarefile.com).zip
+  ROM_URL: https://tdrive.elytra8.workers.dev/iCall_7_MT6580_R2_230317_(by_xdafirmware.com).zip
   TZ: Asia/Kolkata
 jobs:
   build:
