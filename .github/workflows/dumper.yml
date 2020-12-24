@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/Tecno_Camon_16_CE7_MT6768_V303_200922_(by_naijarom.com).zip
+  ROM_URL: https://tdrive.elytra8.workers.dev/iBall_Slide_3G_7334i_MT6577_V10_V1.26_20130730_(by_firmwarefile.com).zip
   TZ: Asia/Kolkata
 jobs:
   build:
