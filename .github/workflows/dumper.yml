@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/Gfive_President_Gold_9_MT6739_20191022_9.0.zip
+  ROM_URL: https://tdrive.elytra8.workers.dev/Tecno_Camon_16_CE7_MT6768_V303_200922_(by_naijarom.com).zip
   TZ: Asia/Kolkata
 jobs:
   build:
