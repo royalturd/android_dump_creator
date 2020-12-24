@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.0.2.0.PEMMIXM/miui_ANDROMEDAGlobal_V12.0.2.0.PEMMIXM_bcb73d3715_9.0.zip
+  ROM_URL: https://tdrive.elytra8.workers.dev/Gfive_President_Gold_9_MT6739_20191022_9.0.zip
   TZ: Asia/Kolkata
 jobs:
   build:
