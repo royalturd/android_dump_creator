@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/iCall_7_MT6580_R2_230317_(by_xdafirmware.com).zip
+  ROM_URL: https://tdrive.elytra8.workers.dev/OnePlus5TOxygen_43_OTA_069_all_2010292144_de4a6fa.zip
   TZ: Asia/Kolkata
 jobs:
   build:
